@@ -8,6 +8,4 @@ Language used - Python
 
 ## Challenges
 
-1. [Write your own wc tool](src/1/)
-2. [Write your own JSON parser](src/2/)
-3. [Write Your own Load Balancer](src/5/)
+1. [Write your own wc tool](wc-tool)
