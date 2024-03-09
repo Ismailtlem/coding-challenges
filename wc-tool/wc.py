@@ -59,7 +59,7 @@ def handle_commands(args: Any) -> str:
 def main() -> None:
     """Main Cli function"""
 
-    parser = ArgumentParser(prog="cli for couting words")
+    parser = ArgumentParser(prog="cli that is like the unix command wc")
     parser.add_argument(
         "-path",
         help="The path of the file to parse",
