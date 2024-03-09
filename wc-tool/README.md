@@ -1,6 +1,6 @@
 # Challenge 1 - Write your own wc tool
 
-This challenge corresponds to the first part of the Coding Challenges series by John Crickett https://codingchallenges.fyi/challenges/challenge-wc.
+This challenge is about making a tool that behaves like the wc command. Here is the [detail](https://codingchallenges.fyi/challenges/challenge-wc) of the challenge
 
 ## Description
 
