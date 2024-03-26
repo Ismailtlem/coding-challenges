@@ -1,0 +1,26 @@
+[project]
+name = "sorting-tool"
+version = "0.1"
+description = "sorting-tool like the unix sort tool"
+readme = "README.md"
+authors = [{name = "Ismail Tlemcani"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click", "pysort"
+]
+
+[project.urls]
+Homepage = "https://github.com/Ismailtlem/sorting-tool"
+Changelog = "https://github.com/Ismailtlem/sorting-tool/releases"
+Issues = "https://github.com/Ismailtlem/sorting-tool/issues"
+CI = "https://github.com/Ismailtlem/sorting-tool/actions"
+
+[project.entry-points.console_scripts]
+sorting-tool = "sorting_tool.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]

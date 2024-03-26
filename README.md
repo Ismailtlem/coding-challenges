@@ -9,3 +9,4 @@ Language used - Python
 ## Challenges
 
 1. [Write your own wc tool](wc-tool)
+2. [Write your own sort tool](sort-tool)
