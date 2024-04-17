@@ -56,7 +56,7 @@ def handle_commands(args: Any) -> str:
     return output
 
 
-def main() -> None:
+def cli() -> None:
     """Main Cli function"""
 
     parser = ArgumentParser(prog="cli that is like the unix command wc")
@@ -90,6 +90,3 @@ def main() -> None:
     elif sys.stdin:
         print(handle_commands(args))
 
-
-if __name__ == "__main__":
-    main()

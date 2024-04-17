@@ -1,0 +1,23 @@
+[project]
+name = "py-wc"
+version = "0.1"
+description = "python wc tool"
+readme = "README.md"
+authors = [{ name = "Ismail Tlemcani" }]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Ismailtlem/py-wc"
+Changelog = "https://github.com/Ismailtlem/py-wc/releases"
+Issues = "https://github.com/Ismailtlem/py-wc/issues"
+CI = "https://github.com/Ismailtlem/py-wc/actions"
+
+[project.entry-points.console_scripts]
+py-wc = "py_wc.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
+build = ["build", "twine"]

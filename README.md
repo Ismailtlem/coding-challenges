@@ -8,5 +8,5 @@ Language used - Python
 
 ## Challenges
 
-1. [Write your own wc tool](wc-tool)
+1. [Write your own wc tool](py-wc)
 2. [Write your own sort tool](sorting-tool)
