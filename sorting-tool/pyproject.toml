@@ -24,3 +24,4 @@ sorting-tool = "sorting_tool.cli:cli"
 
 [project.optional-dependencies]
 test = ["pytest"]
+build = ["build", "twine"]
