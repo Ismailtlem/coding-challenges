@@ -2,7 +2,6 @@
 
 [![PyPI](https://img.shields.io/pypi/v/py-wc.svg)](https://pypi.org/project/py-wc/)
 [![Changelog](https://img.shields.io/github/v/release/Ismailtlem/py-wc?include_prereleases&label=changelog)](https://github.com/Ismailtlem/py-wc/releases)
-[![Tests](https://github.com/Ismailtlem/py-wc/actions/workflows/test.yml/badge.svg)](https://github.com/Ismailtlem/py-wc/actions/workflows/test.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/Ismailtlem/py-wc/blob/master/LICENSE)
 
 python wc tool
