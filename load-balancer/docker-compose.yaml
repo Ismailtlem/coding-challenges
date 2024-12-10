@@ -1,0 +1,34 @@
+version: '3'
+services:
+  backend1:
+    image: server
+    container_name: fastapi-application
+    environment:
+      PORT: 8000
+    ports:
+      - '8001:8000'
+    restart: "no"
+  backend2:
+    image: server
+    container_name: fastapi-application-2
+    environment:
+      PORT: 8002
+    ports:
+      - '8002:8000'
+    restart: "no"
+  backend3:
+    image: server
+    container_name: fastapi-application-3
+    environment:
+      PORT: 8003
+    ports:
+      - '8003:8000'
+    restart: "no"
+  backend4:
+    image: server
+    container_name: fastapi-application-4
+    environment:
+      PORT: 8004
+    ports:
+      - '8004:8000'
+    restart: "no"

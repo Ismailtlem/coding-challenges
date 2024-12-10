@@ -10,3 +10,6 @@ Language used - Python
 
 1. [Write your own wc tool](py-wc)
 2. [Write your own sort tool](sorting-tool)
+3. [Proxy](py-proxy)
+4. [Load balancer](load-balancer)
+5. [json-parser](json-parser)

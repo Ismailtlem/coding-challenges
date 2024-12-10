@@ -1,0 +1,4 @@
+[tool.black]
+# Uncomment if pyproject.toml worked fine to ensure consistency with flake8
+line-length = 120
+target-version = ["py39"]

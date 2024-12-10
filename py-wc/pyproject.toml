@@ -1,6 +1,6 @@
 [project]
-name = "py-wc"
-version = "0.1"
+name = "py-like-wc"
+version = "0.2"
 description = "python wc tool"
 readme = "README.md"
 authors = [{ name = "Ismail Tlemcani" }]
