@@ -1,8 +1,6 @@
-# John Crickett's Coding Challenges solutions
-
 ## About
 
-This repository contains my solutions to John Crickett's Coding Challenges. The challenges are available at [https://codingchallenges.fyi/challenges/intro](https://codingchallenges.fyi/challenges/intro).
+This repository contains some solutions to t
 
 Language used - Python
 
@@ -13,3 +11,4 @@ Language used - Python
 3. [Proxy](py-proxy)
 4. [Load balancer](load-balancer)
 5. [json-parser](json-parser)
+6. [pycurl](pycurl)
