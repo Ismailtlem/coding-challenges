@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 authors = [{ name = "Ismail", email = "ismail@ismailtlemcani.com" }]
 requires-python = ">=3.12"
-dependencies = ["click>=8.1.7"]
+dependencies = ["click>=8.1.7", "requests>=2.32.3"]
 
 [project.scripts]
 pycurl = "pycurl.cli:cli"
@@ -14,3 +14,27 @@ pycurl = "pycurl.cli:cli"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+
+exclude = [
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "venv",
+]
+
+[tool.ruff.lint]
+select = [
+    "ALL", # flake8-bugbear
+]
+ignore = ["D100", "D104", "D415"]
+
+[tool.ruff.lint.isort]
+lines-after-imports = 2
