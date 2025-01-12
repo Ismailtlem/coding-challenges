@@ -1,6 +1,6 @@
 ## About
 
-This repository contains some solutions to t
+This repository contains some solutions to some of the coding challenges listed here https://codingchallenges.fyi/challenges/intro
 
 Language used - Python
 
